@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Greet from './components/welcome';
 
-class App extends Component {
-    render() {
-        return (
-            <div> <Greet /></div>
-        )
-    }
+function App() {
+    return <>
+        <div> <Greet /></div>
+    </>
 }
 
 export default App;
