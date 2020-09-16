@@ -1,0 +1,154 @@
+.main {
+    height: 98vh;
+    padding: 10% 0;
+    text-align: center;
+}
+
+.intro {
+    font-size: 1.7em;
+    text-align: left;
+    flex: 1
+}
+
+.profile-circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 1%;
+}
+
+.blue-text {
+    color: #007AFF;
+    margin: 0;
+}
+
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes zoomIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes zoomIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+
+.arrow {
+    font-size: 1em;
+    padding: 5%;
+  }
+
+.arrow-color {
+    color: black;
+}
+
+.arrow-animate {
+    animation: bounce 0.7s infinite;
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-20%);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+}
+
+.slideInUp {
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInUp {
+    0% {
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+      visibility: visible;
+    }
+
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+}
+
+@keyframes slideInUp {
+    0% {
+        -webkit-transform: translateY(100%);
+        transform: translateY(100%);
+        visibility: visible;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInRight {
+    0% {
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+      visibility: visible;
+    }
+
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+      visibility: visible;
+    }
+
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+}
