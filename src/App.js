@@ -6,8 +6,10 @@ import InfoSection from './components/info';
 
 function App() {
     return <>
-        <div> <Greet /></div>
-        <div> <InfoSection /></div>
+        <div className='container'>
+            <div> <Greet /></div>
+            <div> <InfoSection /></div>
+        </div>
     </>
 }
 

@@ -7,8 +7,7 @@ function Greet() {
             <div className='section main'>
                 <div className='flex'>
                     <div className='col-4'>
-                        {/* TODO: add image */}
-                        <img className='profile-circle zoomIn' src='./public/img/profile_square.jpg' alt='' />
+                        <img className='profile-circle zoomIn' src='/assets/profile.jpg' alt='' />
                     </div>
                     <div className='col-8 intro slideInRight'>
                         <h1>Hi there,<br /> My name is Jacky and I am a <span className='blue-text'>web developer</span>.</h1>
