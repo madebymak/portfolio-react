@@ -3,8 +3,6 @@ import './welcome.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
-
-
 function Greet() {
     return (
         <div className='row'>
@@ -20,9 +18,8 @@ function Greet() {
 
                 <div className='row'>
                     <div className='col-12 arrow slideInUp'>
-                        {/* TODO: install fontawesome for react */}
                         <a href='#work'>
-                            <FontAwesomeIcon className='arrow-color arrow-animate' icon={faArrowDown} />
+                            <FontAwesomeIcon className='arrow-color arrow-animate' icon={faArrowDown} size='2x' />
                         </a>
                     </div>
                 </div>
