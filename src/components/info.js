@@ -5,7 +5,7 @@ function InfoSection() {
     return (
         <div className='row'>
             <div id='work' className='section work'>
-                test
+                Work
             </div>
         </div>
     )
