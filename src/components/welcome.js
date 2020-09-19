@@ -19,7 +19,7 @@ function Greet() {
                 <div className='row'>
                     <div className='col-12 arrow slideInUp'>
                         <a href='#work'>
-                            <FontAwesomeIcon className='arrow-color arrow-animate' icon={faArrowDown} size='2x' />
+                            <FontAwesomeIcon className='arrow-color arrow-animate' icon={faArrowDown} size='4x' />
                         </a>
                     </div>
                 </div>
