@@ -1,0 +1,11 @@
+.info-col {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.project-list {
+    list-style: none;
+    margin: 0;
+    text-align: left;
+}
