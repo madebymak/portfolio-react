@@ -1,7 +1,5 @@
 import React from 'react';
 import './info.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 function InfoSection() {
     return (
@@ -10,24 +8,22 @@ function InfoSection() {
                 <div className='col-6 info-col'>
                     <span className=''>Projects.</span>
                     <ul className='project-list'>
-                        <li>Project 1.</li>
-                        <li>Project 2</li>
-                        <li>Project 3</li>
-                        <li>Project 4</li>
-                        <li>Project 5</li>
-                        <li>Project 6</li>
+                        <li>WikiWhere.</li>
+                        <li>Shopify Demo.</li>
+                        <li>Pie Chart.</li>
+                        <li>PSD to HTML.</li>
+                        <li>Happy Journal.</li>
+                        <li>Tweetr.</li>
                     </ul>
                 </div>
 
                 <div className='col-6 info-col'>
                     <span className=''>Contact.</span>
                     <ul className='project-list'>
-                        <li>Contact 1</li>
-                        <li>Contact 2</li>
-                        <li>Contact 3</li>
-                        <li>Contact 4</li>
-                        <li>Contact 5</li>
-                        <li>Contact 6</li>
+                        <li><a href='' target='_blank'>Email.</a></li>
+                        <li><a href='' target='_blank'>CV.</a></li>
+                        <li><a href='' target='_blank'>GitHub.</a></li>
+                        <li><a href='' target='_blank'>LinkedIn.</a></li>
                     </ul>
                 </div>
             </div>
