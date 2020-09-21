@@ -29,10 +29,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-    /* color: #FFFFFF; */
-}
-
 .row {
   width: 90%;
   margin: 0 auto;

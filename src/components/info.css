@@ -9,3 +9,11 @@
     margin: 0;
     text-align: left;
 }
+
+.project-list a {
+    color: #000;
+}
+
+a:hover {
+    color: #007AFF;
+}
