@@ -3,8 +3,7 @@ import './App.css';
 import Greet from './components/welcome';
 import InfoSection from './components/info';
 
-
-function App() {
+const App = () => {
     return <>
         <div className='container'>
             <div> <Greet /></div>
@@ -13,4 +12,5 @@ function App() {
     </>
 }
 
-export default App;
+
+export { App };
