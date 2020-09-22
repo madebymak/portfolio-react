@@ -11,10 +11,10 @@ const WikiWhere = () => {
             <Modal className='modal' isOpen={modalIsOpen}>
                 <div className=''>
                     <div>
-                        <h2>WikiWhere</h2>
+                        <span className='modal-heading'>WikiWhere.</span>
                     </div>
                     <div className='img-box'>
-                        <img className='responsive-img' src='' alt='' />
+                        <img className='responsive-img' src='/assets/wiki_where.png' alt='' />
                     </div>
                     <div>
                         <p>A web app game where a player guesses the location of a major city based on snippets of information from Wikipedia. Stacks used were React, Cesium, WebPack, Material-UI, Babel and Node.js. </p>
