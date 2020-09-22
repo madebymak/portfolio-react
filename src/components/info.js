@@ -1,4 +1,5 @@
 import React from 'react';
+import WikiWhere from './projects/wikiwhere.js'
 import './info.css';
 
 const InfoSection = () => {
@@ -8,7 +9,7 @@ const InfoSection = () => {
                 <div className='col-6 info-col'>
                     <span className=''>Projects.</span>
                     <ul className='project-list'>
-                        <li>WikiWhere.</li>
+                        <WikiWhere />
                         <li>Shopify Demo.</li>
                         <li>Pie Chart.</li>
                         <li>PSD to HTML.</li>
