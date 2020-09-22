@@ -8,6 +8,7 @@
     list-style: none;
     margin: 0;
     text-align: left;
+    font-size: 0.8em;
 }
 
 .project-list a {
@@ -19,5 +20,5 @@ a:hover {
 }
 
 .heading {
-    font-size: 1em;
+    font-size: 0.8em;
   }

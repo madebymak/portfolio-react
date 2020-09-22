@@ -14,7 +14,7 @@ h1 {
 button {
   border: 0;
   background: none;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: bold;
 }
 
@@ -77,7 +77,7 @@ a {
 
 .modal {
   position: fixed;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
   /* top: 0;
   right: 0; */
@@ -87,6 +87,15 @@ a {
   align-items: center;
   padding: 10%;
   color: #000;
+  font-weight: bold;
+}
+
+.modal:focus {
+  outline-color: #fff;
+}
+
+.modal-heading {
+  font-size: 2em;
 }
 
 .close-btn {
@@ -107,6 +116,7 @@ a {
 
 .img-box {
   text-align: center;
+  padding: 2%;
 }
 
 .responsive-img {
