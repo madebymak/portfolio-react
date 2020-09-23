@@ -12,18 +12,18 @@ const WikiWhere = () => {
                 <div className=''>
                     <div>
                         <span className='modal-heading'>WikiWhere.</span>
+                        <button className='close-btn' onClick={() => setModalIsOpen(false) }>
+                    <FontAwesomeIcon className='' icon={faTimes} size='' />
+                </button>
                     </div>
                     <div className='img-box'>
                         <img className='responsive-img' src='/assets/wiki_where.png' alt='' />
                     </div>
                     <div>
-                        <p>A web app game where a player guesses the location of a major city based on snippets of information from Wikipedia. Stacks used were React, Cesium, WebPack, Material-UI, Babel and Node.js. </p>
+                        <p>A web app game where a player guesses the location of a major city based on snippets of information from Wikipedia. Stacks used were React, Cesium, WebPack, Material-UI, Babel and Node.js.</p>
                         <p><a href='https://github.com/madebymak/wiki_where' target='_blank' rel='noopener noreferrer'>Source</a> | <a href='https://wiki-where.github.io/' target='_blank' rel='noopener noreferrer'>Demo</a></p>
                     </div>
                 </div>
-                <button className='close-btn' onClick={() => setModalIsOpen(false) }>
-                    <FontAwesomeIcon className='' icon={faTimes} size='' />
-                </button>
             </Modal>
         </>
     )

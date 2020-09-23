@@ -99,13 +99,8 @@ a {
 }
 
 .close-btn {
-  /* color: #F7F7F7; */
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 2%;
   font-size: 2em;
-  z-index: 2;
+  float: right;
 }
 
 .pie, .budget, .shopify, .wiki, .happy, .tweetr {
