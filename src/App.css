@@ -77,10 +77,8 @@ a {
 
 .modal {
   position: fixed;
-  /* width: 100%; */
+  width: 100%;
   height: 100%;
-  /* top: 0;
-  right: 0; */
   background: #FFF;
   z-index: 1;
   display: flex;
@@ -92,6 +90,10 @@ a {
 
 .modal:focus {
   outline-color: #fff;
+}
+
+.modal-inner {
+  width: 80vw;
 }
 
 .modal-heading {

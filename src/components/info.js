@@ -1,5 +1,5 @@
 import React from 'react';
-import { WikiWhere, ShopifyDemo } from './projects.js'
+import { WikiWhere, ShopifyDemo, PieChart, Budget, HappyJournal, Tweetr } from './projects.js'
 import './info.css';
 
 const InfoSection = () => {
@@ -11,10 +11,10 @@ const InfoSection = () => {
                     <ul className='project-list'>
                         <WikiWhere />
                         <ShopifyDemo />
-                        <li>Pie Chart.</li>
-                        <li>PSD to HTML.</li>
-                        <li>Happy Journal.</li>
-                        <li>Tweetr.</li>
+                        <PieChart />
+                        <Budget />
+                        <HappyJournal />
+                        <Tweetr />
                     </ul>
                 </div>
 
