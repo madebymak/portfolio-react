@@ -45,7 +45,7 @@ const ShopifyDemo = () => {
                 </button>
                     </div>
                     <div className='img-box'>
-                        <img className='responsive-img' src='/assets/wiki_where.png' alt='' />
+                        <img className='responsive-img' src='/assets/springbreak-store.png' alt='' />
                     </div>
                     <div>
                         <p>A mock ecommerce store for a snowboard company. Built using Shopify's Liquid and Ruby on Rails.</p>
@@ -72,7 +72,7 @@ const PieChart = () => {
                 </button>
                     </div>
                     <div className='img-box'>
-                        <img className='responsive-img' src='/assets/wiki_where.png' alt='' />
+                        <img className='responsive-img' src='/assets/d3_pie.png' alt='' />
                     </div>
                     <div>
                         <p>An animated interactive pie chart that randomizes each slices. Built using the D3.js javascript library.</p>
@@ -99,7 +99,7 @@ const Budget = () => {
                 </button>
                     </div>
                     <div className='img-box'>
-                        <img className='responsive-img' src='/assets/wiki_where.png' alt='' />
+                        <img className='responsive-img' src='/assets/budget.png' alt='' />
                     </div>
                     <div>
                         <p>A responsive PSD to HTML project built with Twitter's Bootstrap and HTML/CSS.</p>
@@ -126,7 +126,7 @@ const HappyJournal = () => {
                 </button>
                     </div>
                     <div className='img-box'>
-                        <img className='responsive-img' src='/assets/wiki_where.png' alt='' />
+                        <img className='responsive-img' src='/assets/happy-journal.png' alt='' />
                     </div>
                     <div>
                         <p>A journal entry app that ranks entries based on a user submitted sentiment score. Stacks used were React, NodeJS, ExpressJS and RethinkDB.</p>
@@ -153,7 +153,7 @@ const Tweetr = () => {
                 </button>
                     </div>
                     <div className='img-box'>
-                        <img className='responsive-img' src='/assets/wiki_where.png' alt='' />
+                        <img className='responsive-img' src='/assets/tweetr.png' alt='' />
                     </div>
                     <div>
                         <p>A simple single-page AJAX-based Twitter clone. Stacks used were ES6 (client side JS), jQuery (Ajax), CSS3, HTML5, Git for version control and mongoDB for database.</p>
