@@ -14,7 +14,7 @@ const WikiWhere = () => {
                     <div>
                         <span className='modal-heading'>WikiWhere.</span>
                         <button className='close-btn' onClick={() => setModalIsOpen(false) }>
-                    <FontAwesomeIcon className='' icon={faTimes} size='' />
+                    <FontAwesomeIcon className='' icon={faTimes} size='1x' />
                 </button>
                     </div>
                     <div className='img-box'>
@@ -41,7 +41,7 @@ const ShopifyDemo = () => {
                     <div>
                         <span className='modal-heading'>Shopify Demo.</span>
                         <button className='close-btn' onClick={() => setModalIsOpen(false) }>
-                    <FontAwesomeIcon className='' icon={faTimes} size='' />
+                    <FontAwesomeIcon className='' icon={faTimes} size='1x' />
                 </button>
                     </div>
                     <div className='img-box'>
@@ -68,7 +68,7 @@ const PieChart = () => {
                     <div>
                         <span className='modal-heading'>Pie Chart Demo.</span>
                         <button className='close-btn' onClick={() => setModalIsOpen(false) }>
-                    <FontAwesomeIcon className='' icon={faTimes} size='' />
+                    <FontAwesomeIcon className='' icon={faTimes} size='1x' />
                 </button>
                     </div>
                     <div className='img-box'>
@@ -95,7 +95,7 @@ const Budget = () => {
                     <div>
                         <span className='modal-heading'>PSD to HTML.</span>
                         <button className='close-btn' onClick={() => setModalIsOpen(false) }>
-                    <FontAwesomeIcon className='' icon={faTimes} size='' />
+                    <FontAwesomeIcon className='' icon={faTimes} size='1x' />
                 </button>
                     </div>
                     <div className='img-box'>
@@ -122,7 +122,7 @@ const HappyJournal = () => {
                     <div>
                         <span className='modal-heading'>Happy Journal.</span>
                         <button className='close-btn' onClick={() => setModalIsOpen(false) }>
-                    <FontAwesomeIcon className='' icon={faTimes} size='' />
+                    <FontAwesomeIcon className='' icon={faTimes} size='1x' />
                 </button>
                     </div>
                     <div className='img-box'>
@@ -149,7 +149,7 @@ const Tweetr = () => {
                     <div>
                         <span className='modal-heading'>Tweetr.</span>
                         <button className='close-btn' onClick={() => setModalIsOpen(false) }>
-                    <FontAwesomeIcon className='' icon={faTimes} size='' />
+                    <FontAwesomeIcon className='' icon={faTimes} size='1x' />
                 </button>
                     </div>
                     <div className='img-box'>
